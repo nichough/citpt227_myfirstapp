@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+clickedButton() {
+  alert("You clicked the button!");
+}
+
 }
